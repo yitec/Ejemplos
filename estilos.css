@@ -1,0 +1,54 @@
+.box {  margin-left: 50px;
+font-family: 'Chela One', cursive;
+
+}
+.box2 {background-color: #a3a3a3; }
+
+.ie6 .box { margin-left: 10px; }
+.ie7 .box { margin-left: 80px; }    
+
+
+#nav li a {background-image:url('images/menu.png')}
+#nav li a.item1 { background-position:0px 104px; width:104px;  }
+#nav li a:hover.item1 {background-position:0px -72px}
+#nav li a.item2 {background-position:0px 12 0px;}
+#nav li a:hover.item2 {background-position:0px -215px;}
+
+.navi1 {
+  display: block;
+  height: 72px;
+  margin:0 auto;
+  position: relative;
+  width: 525px;
+}
+.navi1 ul {
+  float: none;
+  list-style-image: none;
+  list-style-type: none;
+  margin: 3px 0;
+}
+.navi1 ul li {
+  height: 31px;
+  background-image: url('images/globalnavbg.png');
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0px;
+  padding-top: 5px;
+  position: absolute;
+}
+.navi1 ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.navi1 ul li.sm1 { background-position: 0px 0px; left: 0px; width: 104px; }
+.navi1 ul li.sm2 { background-position: -103px 0px; left: 100px; width: 104px; }
+.navi1 ul li.sm3 { background-position: -206px 0px; left: 200px; width: 104px; }
+.navi1 ul li.sm4 { background-position: -309px 0px; left: 300px; width: 104px; }
+.navi1 ul li.sm5 { background-position: -412px 0px; left: 400px; width: 104px; }
+.navi1 ul li:hover { z-index: 1000; }
+.navi1 ul li.sm1:hover { background-position: 0px -38px; }
+.navi1 ul li.sm2:hover { background-position: -103px -38px; }
+.navi1 ul li.sm3:hover { background-position: -206px -38px; }
+.navi1 ul li.sm4:hover { background-position: -309px -38px; }
+.navi1 ul li.sm5:hover { background-position: -412px -38px; }

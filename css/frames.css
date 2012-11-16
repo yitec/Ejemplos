@@ -1,0 +1,62 @@
+	 
+
+#Superior {  
+ position:fixed;  
+ top:0;  
+ left:0; width:100%;  
+ height:15%;  
+ overflow:visible;
+ font-family: Arial;
+ size: 18px;
+ background-color:  #e0e0e0; 
+ }  
+  
+#Izquierda {  
+position:absolute;  
+top:15%;  
+left:0;  
+width:25%;  
+height:85%;  
+overflow:scroll;
+background-color: e0e0e0;
+ }  
+  
+#Derecha {  
+position:absolute;  
+top:15%; left:25%;  
+width:75%;  
+height:85%;  
+overflow:auto; }  
+
+.backg {
+	/*background-image: url('../images/menu.png');*/
+	position: absolute;
+	left:0;
+	top:15%;
+	width:100%;
+	height: 150%;
+	background-color:  #19d62f;
+	font-family: Arial;
+ 	size: 18px;
+ 	
+ 
+}
+
+.frame {
+	border: 1px ridge #DCD9D9;
+	 padding: 10px;
+	background-color: #fff;
+	/*-moz-border-radius: 15px;
+	border-bottom-radius: 15px;*/
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.frame img {
+	border: 2px solid #000;
+	padding: 1px;
+	 margin: 10px;
+}
+
