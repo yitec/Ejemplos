@@ -28,35 +28,65 @@ width:75%;
 height:85%;  
 overflow:auto; }  
 
-.backg {
-	/*background-image: url('../images/menu.png');*/
-	position: absolute;
-	left:0;
-	top:15%;
-	width:100%;
-	height: 150%;
-	background-color:  #19d62f;
-	font-family: Arial;
- 	size: 18px;
- 	
- 
-}
 
 .frame {
 	border: 1px ridge #DCD9D9;
-	 padding: 10px;
+	padding: 10px;
 	background-color: #fff;
-	/*-moz-border-radius: 15px;
-	border-bottom-radius: 15px;*/
 	-moz-border-radius-bottomright: 10px;
 	border-bottom-right-radius: 10px;
 	-moz-border-radius-bottomleft: 10px;
 	border-bottom-left-radius: 10px;
+	
 }
 
-.frame img {
-	border: 2px solid #000;
-	padding: 1px;
-	 margin: 10px;
+
+.header{
+	border: 0px ridge #fff;
+	padding: 10px;
+    -moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	background: -webkit-linear-gradient(gray,black);
+	background: -moz-linear-gradient(gray,black);
+	background: -o-linear-gradient(gray,black);
+	background: linear-gradient(gray,black);
+	behavior: url(border-radius.htc); /* Para IE */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#3d3e3e', EndColorStr='#000');  
+	height: 20px;	
 }
 
+.linea_azul{
+	background: -webkit-linear-gradient(#2a94c8,#066ea3);
+	background: -moz-linear-gradient(#2a94c8,#066ea3);
+	background: -o-linear-gradient(#2a94c8,#066ea3);
+	background: linear-gradient(#2a94c8,#066ea3);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#2a94c8', EndColorStr='#066ea3');
+	height: 5px;	
+}
+
+.iexplorer{
+	border: 1px ridge #DCD9D9;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 0px 0px 20px 20px;	
+	behavior: url(border-radius.htc);
+	
+}
+
+.header_citi{
+	background: -webkit-linear-gradient(#02b9ef,#014b8a);
+	background: -moz-linear-gradient(#02b9ef,#014b8a);
+	background: -o-linear-gradient(#02b9ef,#014b8a);
+	background: linear-gradient(#02b9ef,#014b8a);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#02b9ef', EndColorStr='#014b8a');
+	height: 105px;	
+}
+
+.text{
+	font-family: arial;
+	font-size: 40px;
+	color: #fff;
+	
+}
