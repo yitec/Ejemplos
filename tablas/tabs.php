@@ -78,6 +78,19 @@
 						<th>Header 6</th>
 						<th>Header 7</th>
 						<th>Header 8</th>
+						<th>Header 9</th>
+						<th>Header 10</th>
+						<th>Header 11</th>
+						<th>Header 12</th>
+						<th>Header 13</th>
+						<th>Header 14</th>
+						<th>Header 15</th>
+						<th>Header 16</th>
+						<th>Header 17</th>
+						<th>Header 18</th>
+						<th>Header 19</th>
+						<th>Header 20</th>
+						
 					</tr>
 					<tr>
 						<td>row 1, cell 1</td>

@@ -19,25 +19,31 @@ p {
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
-	tr:nth-of-type(odd) { 
-		background: #139ddb; 
-	}
+	 
 	th { 
-		background: #333; 
+		height:  52px;
+		background: #222222; 
 		color: white; 
 		font-weight: bold;
-		font-family: Arial; 
-	}
-	td, th { 
-		padding: 6px; 
-		
-		border-bottom:solid 1px;
-		border-bottom-color: #77baef;
+		font-family: center; 
 		text-align: left;
-		 background: #01518d;
+		border-left:solid 1px;
+		border-left:dashed 1px ;
+		border-left-color: #999999;
+		
+		
+	}
+	td { 
+		padding: 6px; 
+		border-left:solid 1px;
+		border-left:dashed 1px ;
+		border-left-color: #999999;
+		border-bottom:solid 1px;
+		border-bottom-color: #999999;
+		text-align: center;
+		 
 	}
 	/* Zebra striping */
 	tr:nth-of-type(odd) { 
-		background: #139ddb; 
+		background: #fff; 
 	}	
